@@ -1,0 +1,10 @@
+note:
+The user enters write something onthe text field and press the Save button
+end note
+
+browser-> server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server -> browser: HTML status code 201 created
+
+note :
+the server would save the note on the database
+end note
